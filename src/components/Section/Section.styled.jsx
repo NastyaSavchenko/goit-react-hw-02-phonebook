@@ -5,7 +5,7 @@ export const SectionTitle = styled.h2`
 
   font-family: 'Roboto';
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 2;
 `;
 

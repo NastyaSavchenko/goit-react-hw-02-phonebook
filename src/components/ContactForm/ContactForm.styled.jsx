@@ -11,9 +11,9 @@ export const FormTitle = styled.h3`
 export const FormInput = styled.input`
   max-width: 400px;
   width: 100%;
-  height: 40px;
+  height: 30px;
   margin-bottom: 20px;
-  padding: 2px 10px;
+  padding: 2px 20px;
 
   border: solid 2px #f3848c;
   border-radius: 6px;
@@ -21,7 +21,7 @@ export const FormInput = styled.input`
 
   outline: none;
 
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: #f3848c;

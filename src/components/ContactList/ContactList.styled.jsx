@@ -22,8 +22,8 @@ export const DeleteBtnStyled = styled.button`
   align-items: center;
   margin-left: auto;
   margin-right: 0;
-  height: 35px;
-  padding: 0px 20px;
+  height: 30px;
+  padding: 0px 40px;
   cursor: pointer;
 
   border-radius: 6px;
