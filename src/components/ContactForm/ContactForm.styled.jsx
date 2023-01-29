@@ -5,15 +5,15 @@ export const FormTitle = styled.h3`
 
   font-family: 'Roboto';
   font-weight: 500;
-  font-size: 40px;
+  font-size: 30px;
 `;
 
 export const FormInput = styled.input`
-  max-width: 550px;
+  max-width: 400px;
   width: 100%;
-  height: 50px;
+  height: 40px;
   margin-bottom: 20px;
-  padding: 2px 30px;
+  padding: 2px 10px;
 
   border: solid 2px #f3848c;
   border-radius: 6px;
@@ -21,7 +21,7 @@ export const FormInput = styled.input`
 
   outline: none;
 
-  font-size: 30px;
+  font-size: 20px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: #f3848c;
@@ -35,12 +35,12 @@ export const FormBtn = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 558px;
+  max-width: 400px;
   width: 100%;
-  height: 70px;
+  height: 40px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0px 40px;
+  padding: 0px 0px;
   cursor: pointer;
 
   border-radius: 6px;
@@ -55,7 +55,7 @@ export const FormBtn = styled.button`
 
   font-family: 'Roboto';
   font-weight: 500;
-  font-size: 40px;
+  font-size: 30px;
 
   &:hover,
   &:focus {

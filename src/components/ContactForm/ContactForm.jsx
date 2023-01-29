@@ -65,8 +65,8 @@ class ContactForm extends Component {
           <BsFillPersonPlusFill
             style={{
               marginRight: 30,
-              width: 40,
-              height: 40,
+              width: 30,
+              height: 30,
             }}
           />
           Add contact

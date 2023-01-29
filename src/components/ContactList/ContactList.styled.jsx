@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ContactListStyled = styled.ul`
-  max-width: 1000px;
+  max-width: 900px;
   text-align: start;
   margin: 0 auto;
 `;
@@ -13,7 +13,7 @@ export const ContactListItemsStyled = styled.li`
 
   font-family: 'Roboto';
   font-weight: 500;
-  font-size: 40px;
+  font-size: 30px;
 `;
 
 export const DeleteBtnStyled = styled.button`
@@ -22,7 +22,7 @@ export const DeleteBtnStyled = styled.button`
   align-items: center;
   margin-left: auto;
   margin-right: 0;
-  height: 40px;
+  height: 35px;
   padding: 0px 20px;
   cursor: pointer;
 
@@ -37,7 +37,7 @@ export const DeleteBtnStyled = styled.button`
   border: inherit;
 
   font-family: 'Roboto';
-  font-size: 30px;
+  font-size: 20px;
 
   &:hover,
   &:focus {

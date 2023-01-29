@@ -14,8 +14,8 @@ export const ContactListItems = ({
       <BsFillPersonLinesFill
         style={{
           marginRight: 30,
-          width: 40,
-          height: 40,
+          width: 30,
+          height: 30,
         }}
       />
       <p>

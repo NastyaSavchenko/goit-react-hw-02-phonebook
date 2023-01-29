@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const FilterInputStyled = styled.input`
-  max-width: 550px;
+  max-width: 400px;
   width: 100%;
-  height: 50px;
+  height: 40px;
   margin-bottom: 20px;
-  padding: 2px 30px;
+  padding: 2px 10px;
 
   border: solid 2px #f3848c;
   border-radius: 6px;
@@ -13,7 +13,7 @@ export const FilterInputStyled = styled.input`
 
   outline: none;
 
-  font-size: 30px;
+  font-size: 20px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: #f3848c;
@@ -28,5 +28,5 @@ export const FilterTitleStyled = styled.h3`
 
   font-family: 'Roboto';
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
 `;
