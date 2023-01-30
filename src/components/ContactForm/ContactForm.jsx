@@ -19,7 +19,7 @@ class ContactForm extends Component {
   onFormSubmit = e => {
     e.preventDefault();
     const { name, number } = this.state;
-    const data = [{ id: nanoid(), name: name, number: number }];
+    const data = { id: nanoid(), name: name, number: number };
     this.props.createNewContact(data);
 
     this.reset();

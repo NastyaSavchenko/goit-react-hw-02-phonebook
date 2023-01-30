@@ -10,12 +10,14 @@ export class App extends Component {
   };
 
   createNewContact = data => {
-    const stateName = this.state.contacts.map(e => e.name);
-    const newName = data.map(e => e.name);
+    const normalizeFilter = data.name.toLowerCase();
+    const stateNameArray = this.state.contacts.map(({ name }) =>
+      name.toLowerCase()
+    );
 
-    !stateName.includes(newName[0])
-      ? this.setState({ contacts: this.state.contacts.concat(data) })
-      : alert(`${newName} is already in contacts.`);
+    !stateNameArray.includes(normalizeFilter)
+      ? this.setState({ contacts: [...this.state.contacts, data] })
+      : alert(`${data.name} is already in contacts.`);
   };
 
   deleteContact = contactId => {
